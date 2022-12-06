@@ -20,6 +20,9 @@ $lang = [
 	'SE'		=> "Swedish",
 	'PL'		=> "Polish",
 	'CN'		=> "Chinese (simplified)",
+	'IT'		=> "Italian",
+	'RU'		=> "Russian",
+
 
 	/* ******************************************************************
 		MAINMENU
@@ -31,6 +34,7 @@ $lang = [
 	'MM_DOWNLOADS'	=> "Downloads",
 	'MM_MEDIA'		=> "Media",
 	'MM_WIKI'		=> "Wiki",
+	'MM_RECIPES'		=> "Recipes",
 
 	/* ******************************************************************
 		PAGE CONTENT & TITLES <title>
@@ -47,7 +51,7 @@ $lang = [
 
 
 	'DL_OPTCAT_1'	=> "Launcher",
-		'DL_OPTCAT_TXT_1'	=> "Download the launcherand <span class='text-h1'>play</span> the game",
+		'DL_OPTCAT_TXT_1'	=> "Download the launcher and <span class='text-h1'>play</span> the game",
 	'DL_OPTCAT_2'	=> "Server",
 		'DL_OPTCAT_TXT_2'	=> "Create your <span class='text-h1'>own</span> server !",
 	'DL_OPTCAT_3'	=> "Extras",
@@ -112,14 +116,17 @@ $lang = [
 	'COCKPIT_VC_PROFILE'	=> "Profile",
 	'COCKPIT_VC_ACCOUNT'	=> "Account",
 	'COCKPIT_VC_LAUNCHER'	=> "Launcher",
+	'COCKPIT_VC_SERVERS'	=> "Servers",
 
 	// MENU
 	'COCKPIT_HOME'			=> "Home",
 
 	'COCKPIT_ACCOUNT_EDIT'	=> "Edit Account",
 	'COCKPIT_PROFILE_PRIVACY'	=> "Privacy Settings",
+	'COCKPIT_CHANGE_PASSWORD'	=> "Change Password",
 	
-	'COCKPIT_REQUESTLIST'	=> "Serverlist Request",
+	'COCKPIT_SREQLIST'	=> "My requests",
+	'COCKPIT_SREQREQUEST'	=> "Send a request",
 
 	'COCKPIT_SECURITYLAUNCH'=> "Account Key",
 	'COCKPIT_SECURITYPASS'	=> "Change Password",
@@ -147,7 +154,7 @@ $lang = [
 		'COCKPIT_TITLE_PAGE_2FA_BACKUPCODES_TEXT'	=> "These codes are used in emergency only, if you can't validate your 2FA Method.",
 		'COCKPIT_TITLE_PAGE_2FA_BACKUPCODES_BTN'	=> "Generate my Emergency Codes",
 
-	
+	'COCKPIT_ADVERT_REQUEST'	=> "Request are actually in <b>Beta version</b>.<br>All the process is <b class=''>manual</b>, you will receive an email when your server will be available in the list.<br><br>Do not spam us about this request, all message about this out of this website will get no response.",
 
 
 	/* ******************************************************************
@@ -232,13 +239,18 @@ $lang = [
 	/* ******************************************************************
 		CONSOLE
 	** ***************************************************************** */
-
+ 
 	// Sidenav Menu
 	'CONSOLE_HOME'		=> "Dashboard",
 	'CONSOLE_NEWS'		=> "News",
-	'CONSOLE_SERVERS'	=> "Servers",
+	'CONSOLE_SERVERS'	=> "ServerList",
+	'CONSOLE_WIKI'		=> "Wiki Settings",
 	'CONSOLE_USERS'		=> "Users",
-	'CONSOLE_CONFIG'	=> "Settings",
+	'CONSOLE_FINDUSER'	=> "Open Folder",
+	'CONSOLE_CONFIG'	=> "Site Settings",
+	'CONSOLE_REQUESTS'	=> "Server Requests",
+	'CONSOLE_FORUMCATS'	=> "Board Categories",
+	'CONSOLE_FORUMMOD'	=> "Board Moderation",
 
 	// Counters
 	'COUNTER_TOTAL_NEWS'	=> "Total News",
@@ -247,11 +259,18 @@ $lang = [
 	'COUNTER_LASTUPDT'	=> "Last release",
 
 	// Titles pages
-	'CONSOLE_TITLE_PAGE_HOME'	=> "Dashboard Admin",
+	'CONSOLE_TITLE_PAGE_HOME'	=> "Dashboard",
 	'CONSOLE_TITLE_PAGE_NEWS'	=> "Manage News",
 	'CONSOLE_TITLE_PAGE_SERVERS'=> "Manage Servers",
 	'CONSOLE_TITLE_PAGE_USERS'	=> "Manage Users",
 	'CONSOLE_TITLE_PAGE_CONFIG'	=> "Website Settings",
+	'CONSOLE_TITLE_PAGE_REQUESTS'	=> "ServerList requests",
+	'CONSOLE_TITLE_PAGE_WIKI'	=>  "Manage Wiki",
+	'CONSOLE_TITLE_PAGE_FORUMCAT'	=> "Manage Board Categories",
+
+	'CONSOLE_TITLE_PAGE_FOLDERVIEW'	=> "Player folder",
+	'CONSOLE_TITLE_PAGE_FINDUSER'	=> "Request Folder",
+	'CONSOLE_TITLE_PAGE_SUPPORTFOLDER_CODE'	=> "Enter the security code",
 
 	'CONSOLE_TITLE_PAGE_EDITUSER'	=> "Editing user",
 	'CONSOLE_TITLE_PAGE_EDITNEWS'	=> "Editing News",
